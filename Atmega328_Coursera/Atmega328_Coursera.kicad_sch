@@ -3059,12 +3059,6 @@
 		(uuid "22acd691-c174-4ea4-8663-bb8a8e81ca83")
 	)
 	(junction
-		(at 29.21 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e1b6ce7-a138-46b7-8c09-ec56abb2964a")
-	)
-	(junction
 		(at 83.82 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3161,16 +3155,6 @@
 			(type default)
 		)
 		(uuid "007e1c88-f492-43d5-9091-7ca1b849b12e")
-	)
-	(wire
-		(pts
-			(xy 21.59 149.86) (xy 29.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c89e9b-a96b-4de0-808a-374e00443459")
 	)
 	(wire
 		(pts
@@ -4891,84 +4875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 21.59 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0572e786-8b7c-49a9-8405-40cd79952e01")
-		(property "Reference" "H5"
-			(at 20.574 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 17.78 147.574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
-			(at 21.59 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 21.59 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ab6ff88-2532-418a-9f27-762c6af20984")
-		)
-		(instances
-			(project "Atmega328_Coursera"
-				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 181.61 58.42 0)
 		(unit 1)
@@ -4980,7 +4886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f76e0e-b5df-40a8-9bd9-c93eaa06356e")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 184.15 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,7 +4950,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5141,7 +5047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2102c002-866e-4969-8209-addc1fff82e8")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR09"
 			(at 215.9 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5202,7 +5108,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR2")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5298,7 +5204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25a729f6-6b0e-41aa-b93c-5dcd821d24e8")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 109.22 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5268,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5468,7 +5374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f14073-0bc3-4241-9499-f8e050ec5795")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 195.58 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5532,7 +5438,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5550,7 +5456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff607f4-b2fc-4b21-a998-09bfd8254325")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR06"
 			(at 181.61 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5610,7 +5516,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR4")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5650,7 +5556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
 			(at 251.46 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5739,7 +5645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51eca170-7ae3-4652-9f29-d7a573fd1412")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 110.998 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,7 +5709,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5899,7 +5805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "649c2652-50c7-4c0d-908c-971fdab02a3a")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 206.0575 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5961,7 +5867,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d9f39f-ed9a-4e36-933a-2bd92aa520ee")
-		(property "Reference" "#PWR10"
+		(property "Reference" "#PWR01"
 			(at 33.02 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6039,7 +5945,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR10")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6056,7 +5962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cc52d03-1095-453c-9987-c81ec2df8825")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 91.44 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6120,7 +6026,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6138,7 +6044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "755d0374-a29e-4f0d-b98f-842a61bd5959")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR04"
 			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6198,7 +6104,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR5")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6215,7 +6121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e5d8150-ba9e-4ac0-8e61-de955566faf5")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 101.346 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6185,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6297,7 +6203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e9f5e15-4a50-4cd3-9723-d002239b34f4")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR02"
 			(at 64.77 127 0)
 			(hide yes)
 			(show_name no)
@@ -6357,7 +6263,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR6")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6375,7 +6281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9332dd76-1c0b-4aaa-933f-bd9cde0626fe")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 101.6 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6440,7 +6346,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6458,7 +6364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "959d4c66-2689-4eeb-8e11-87d432aff434")
-		(property "Reference" "#FLG1"
+		(property "Reference" "#FLG01"
 			(at 83.82 36.195 0)
 			(hide yes)
 			(show_name no)
@@ -6518,7 +6424,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#FLG1")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6536,7 +6442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "976f5405-41b8-4160-99f5-f6bc201ba589")
-		(property "Reference" "#PWR7"
+		(property "Reference" "#PWR03"
 			(at 68.58 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6597,7 +6503,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR7")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6614,7 +6520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9aaffdbe-e04e-41de-8844-c6faa71489de")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 118.11 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,7 +6582,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6693,7 +6599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5f648f0-0090-45f7-a8fc-de2ffbb6773e")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 118.11 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6755,7 +6661,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6773,7 +6679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a64d3b50-a285-4ba8-9097-4ab94c4f0c25")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 200.6663 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6835,7 +6741,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6930,7 +6836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5c3f197-85b2-473c-ac0d-6e712f6decdf")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 78.486 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +6900,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7034,7 +6940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
 			(at 251.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7124,7 +7030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2356e7a-1607-41f3-936c-f1220a66e6f3")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR08"
 			(at 215.9 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7185,7 +7091,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR1")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7283,7 +7189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0db6816-36c4-4cf1-a99d-5f406b956eba")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 166.0241 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,7 +7344,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7456,7 +7362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e27474d0-4d87-4255-ac7e-e3c7b8caada6")
-		(property "Reference" "#FLG2"
+		(property "Reference" "#FLG02"
 			(at 91.44 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -7516,7 +7422,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#FLG2")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7533,7 +7439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e65b4e52-a3e2-40a7-aa22-619bb8e13531")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 200.66 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7595,7 +7501,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7613,7 +7519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb6fb54c-e251-425a-8170-7a4938e2e996")
-		(property "Reference" "#PWR8"
+		(property "Reference" "#PWR010"
 			(at 215.9 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7673,7 +7579,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR8")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7691,7 +7597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efa1282d-61c0-445b-9fcd-ac6aaa58217f")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR07"
 			(at 193.04 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7751,7 +7657,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR3")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7769,7 +7675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4f29924-3fc3-4cdb-a6f8-99c8b66a0a73")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR05"
 			(at 163.83 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7829,7 +7735,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "#PWR9")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7928,7 +7834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fadb1d0a-25d6-4632-9d85-234d1882c095")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 87.122 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7992,7 +7898,7 @@
 		(instances
 			(project "Atmega328_Coursera"
 				(path "/780d0d7e-8512-4f38-9427-e72b62315434"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
